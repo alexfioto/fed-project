@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'JurassicPark';
+    src: url('../assets/fonts/JurassicPark-BL48.ttf')  format('truetype');
+  }
+
+
+h1 {
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+p {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+}
+.train {
+    margin: 0;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('../assets/images/pexels-pixabay-258510.jpg');
+}
+
+.train img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.train-button{
+    background-color: blue;
+    width: 10%;
+    border: solid white 2px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1em auto;
+    padding: 0.5em;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.dinosaur {
+    margin: 0px;
+    font-size: 35px;
+    color: orangered;
+    font-family: 'JurassicPark';
+    background-image: url('../assets/images/pexels-engin-akyurt-6348894.jpg')
+}
+
+.dinosaur img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;    
+}
+
+.dinosaur-button{
+    background-color: black;
+    width: 10%;
+    border: solid orange 2px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1em auto;
+    padding: 0.5em;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.dinosaur-button:hover {
+    cursor: pointer;
+    background-color: ghostwhite;
+}

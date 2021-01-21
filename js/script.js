@@ -38,3 +38,4 @@ function dataScienceTheme() {
 musicButton.onclick = musicTheme
 
 dataScienceButton.onclick = dataScienceTheme
+
