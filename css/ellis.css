@@ -3,10 +3,34 @@
     src: url('../assets/fonts/JurassicPark-BL48.ttf')  format('truetype');
   }
 
+@font-face {
+    font-family: 'TrainTrack';
+    src: url('../assets/fonts/Kballaboard-ey9e.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Train';
+    src: url('../assets/fonts/Rmblock-A46x.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kid';
+    src: url('../assets/fonts/BalonkuRegular-la1w.otf') format('truetype');
+}
+
+header {
+    font-family: 'Kid';
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    background-color: blue;
+    padding: 0.25em;
+    border-radius: 20px, 20px, 0px, 0px;
+}
 
 h1 {
     text-align: center;
-    padding:0;
+    padding: 1em;
     margin:0;
 }
 
@@ -14,12 +38,14 @@ p {
     text-align: center;
     width: 35%;
     margin: auto;
+    color: brown;
+    font-size: 20px;
 }
 .train {
     margin: 0;
-    color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: url('../assets/images/pexels-pixabay-258510.jpg');
+    color: brown;
+    font-family: 'TrainTrack', 'Times New Roman', Times, serif;
+    background: url('../assets/images/europe_train.jpg');
     background-size: cover;
 
 }
@@ -31,11 +57,13 @@ p {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    border: solid black 3px;
+
 }
 .train-button{
     background-color: blue;
-    width: 10%;
-    border: solid white 2px;
+    width: 15%;
+    border: solid white 3px;
     border-radius: 5px;
     text-align: center;
     margin: 1em auto;
@@ -51,10 +79,10 @@ p {
 
 .dinosaur {
     margin: 0px;
-    font-size: 35px;
+    font-size: 30px;
     color: orangered;
     font-family: 'JurassicPark';
-    background: url('../assets/images/pexels-engin-akyurt-6348894.jpg');
+    background: url('../assets/images/purnomo-capunk-KZC7BJo0Cl0-unsplash.jpg');
     background-size: cover;
 }
 
@@ -64,13 +92,14 @@ p {
     height: 25%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 20px;    
+    border-radius: 20px;
+    border: solid black 3px;    
 }
 
 .dinosaur-button{
     background-color: black;
-    width: 10%;
-    border: solid orange 2px;
+    width: 15%;
+    border: solid orange 3px;
     border-radius: 5px;
     text-align: center;
     margin: 1em auto;

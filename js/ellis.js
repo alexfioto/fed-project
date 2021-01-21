@@ -8,10 +8,13 @@ function honkHonk() {
     audio.play();
 }
 
-function rawr() {
+function tRexRawr() {
     var audio = new Audio("assets/sounds/t-rex-roar.mp3");
     audio.play();
-
 }
 
+function raptorRawr() {
+    var audio = new Audio("assets/sounds/f66fec_Velociraptor_Roaring_Sound_Effect.mp3");
+    audio.play();
+}
 
