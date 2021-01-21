@@ -19,7 +19,9 @@ p {
     margin: 0;
     color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url('/assets/images/pexels-pixabay-258510.jpg');
+    background: url('/assets/images/pexels-pixabay-258510.jpg');
+    background-size: cover;
+
 }
 
 .train img {
@@ -42,9 +44,9 @@ p {
     transition-duration: 0.5s;
 }
 
-.button:hover {
+.train-button:hover {
     cursor: pointer;
-    background-color: lightblue;
+    background-color: darkgrey;
 }
 
 .dinosaur {
@@ -52,7 +54,8 @@ p {
     font-size: 35px;
     color: orangered;
     font-family: 'JurassicPark';
-    background-image: url('/assets/images/pexels-engin-akyurt-6348894.jpg')
+    background: url('/assets/images/pexels-engin-akyurt-6348894.jpg');
+    background-size: cover;
 }
 
 .dinosaur img {
@@ -78,5 +81,5 @@ p {
 
 .dinosaur-button:hover {
     cursor: pointer;
-    background-color: ghostwhite;
+    background-color: darkorange;
 }
