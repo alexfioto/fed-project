@@ -3,6 +3,15 @@
     src: url('../assets/fonts/GoodUnicornRegular-Rxev.ttf') format('truetype')
 }
 
+@keyframes unicornTakeoff {
+    50% {
+      transform: translate(0px, -800px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+
 body {
     font-family: 'Unicorn';
     background: url('../assets/images/—Pngtree—unicorn hand paint background sky_1199176.jpg');
@@ -34,5 +43,17 @@ img {
 
 .button:hover {
     background-color: palevioletred;
-    cursor: poi
+    cursor: pointer;
+}
+
+.farting-unicorn:hover {
+    cursor: pointer;
+}
+
+.farting-unicorn-animation {
+    animation: unicornTakeoff;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2900ms;
+    
 }
