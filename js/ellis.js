@@ -18,3 +18,9 @@ function raptorRawr() {
     audio.play();
 }
 
+function harryAccepted() {
+    var audio = new Audio("assets/sounds/accepted.mp3");
+    audio.play();
+}
+
+

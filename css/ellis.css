@@ -18,6 +18,10 @@
     src: url('../assets/fonts/BalonkuRegular-la1w.otf') format('truetype');
 }
 
+@font-face {
+    font-family: 'HarryPotter';
+    src: url('../assets/fonts/HARRYP__.ttf') format('truetype');
+}
 header {
     font-family: 'Kid';
     color: whitesmoke;
@@ -30,16 +34,26 @@ header {
 
 h1 {
     text-align: center;
-    padding: 1em;
+    padding: .5em;
     margin:0;
+    font-size: 8em;
 }
 
 p {
     text-align: center;
     width: 35%;
     margin: auto;
+    margin-bottom: 1em;
     color: brown;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.bottom-paragraph {
+    padding-top: 1em;
+    padding-bottom: 3em;
+    margin-bottom: 0;
+    text-align:center;
+    font-size: 4em;
 }
 .train {
     margin: 0;
@@ -58,7 +72,6 @@ p {
     margin-right: auto;
     border-radius: 20px;
     border: solid black 3px;
-
 }
 .train-button{
     color:white;
@@ -67,7 +80,7 @@ p {
     border: solid white 3px;
     border-radius: 5px;
     text-align: center;
-    margin: 1em auto;
+    margin: 2em auto;
     padding: 0.5em;
     transition-property: background-color;
     transition-duration: 0.5s;
@@ -91,10 +104,10 @@ p {
     display: block;
     width: 25%;
     height: 25%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     border-radius: 20px;
     border: solid black 3px;    
+    
 }
 
 .dinosaur-button{
@@ -103,7 +116,7 @@ p {
     border: solid orange 3px;
     border-radius: 5px;
     text-align: center;
-    margin: 1em auto;
+    margin: 2em auto;
     padding: 0.5em;
     transition-property: background-color;
     transition-duration: 0.5s;
@@ -112,4 +125,47 @@ p {
 .dinosaur-button:hover {
     cursor: pointer;
     background-color: darkorange;
+}
+
+.harry-potter {
+    margin: 0;
+    color: gold;
+    font-family: 'HarryPotter', 'Times New Roman', Times, serif;
+    background: url('../assets/images/hogwarts.jpg');
+    background-size: cover;
+    font-size: 3em;
+}
+
+.harry-potter img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    border-radius: 20px;
+    border: solid black 3px;    
+}
+
+.harry-button {
+    color: gold;
+    background-color: crimson;
+    width: 15%;
+    border: solid black 3px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2em auto;
+    padding: 0.5em;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.harry-button:hover {
+    cursor: pointer;
+    background-color: darkorange;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
 }
