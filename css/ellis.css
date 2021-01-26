@@ -37,6 +37,7 @@ h1 {
     padding: .5em;
     margin:0;
     font-size: 8em;
+    font-weight: normal;
 }
 
 p {
@@ -128,12 +129,16 @@ p {
 }
 
 .harry-potter {
+    font-size: 2em;
     margin: 0;
     color: gold;
     font-family: 'HarryPotter', 'Times New Roman', Times, serif;
-    background: url('../assets/images/hogwarts.jpg');
-    background-size: cover;
-    font-size: 3em;
+    background-image: url('../assets/images/fantasy-4339663_1920.jpg');
+    background-size: contain;
+}
+
+.harry-potter h1 {
+    font-size: 4em;
 }
 
 .harry-potter img {
@@ -160,7 +165,8 @@ p {
 
 .harry-button:hover {
     cursor: pointer;
-    background-color: darkorange;
+    background-color: gold;
+    color: crimson;
 }
 
 iframe {
@@ -168,4 +174,9 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
+    margin-bottom: 2em;
+}
+
+.harry-potter .bottom-paragraph {
+    color: gold;
 }

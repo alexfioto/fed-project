@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Unicorn';
-    src: url('../assets/fonts/GoodUnicornRegular-Rxev.ttf') format('truetype')
+    src: url('../assets/fonts/GoodUnicornRegular-Rxev.ttf') format('truetype');
 }
 
 @keyframes unicornTakeoff {

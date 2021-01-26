@@ -10,3 +10,6 @@ if (1 in a) {
 
 let str = 'hello'
 console.log(str[3]);
+
+let number = 44000000000
+console.log(number.toExponential())
